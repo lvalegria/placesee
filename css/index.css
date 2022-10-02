@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    margin-right: 10px;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+    
+}
+
+.section-cont,
+.footer{   
+    width: 40em;
+    margin: 0px auto;  
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    color: #3c82a5;
+    font-family: 'Oleo Script';
+    font-size: 4em;
+   
+}
+#form-h2{
+    margin-top: -5px;
+    margin-left: 53%;
+    margin-right: 70px;
+
+    font-family: 'Montserrat';
+    font-size: 0.8em;
+
+    color: #898989;
+}
+
+form{
+    width: 100%;
+    background: linear-gradient(to right, #f2f2f2 0%, #f2f2f2 45%, #f9f9f9 55%, #f9f9f9 100%);
+    border-radius: 5px;
+}
+
+.section-img .phone{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 17em;
+    float: left;
+
+}
+
+.form-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.form-pie{
+    margin: 0px auto;  
+    text-align: right;
+
+    padding: 0.1em 5.5em 0.1em 7em;
+
+    background: linear-gradient(to right, #f2f2f2 0%, #f2f2f2 45%, #f9f9f9 55%, #f9f9f9 100%);
+    
+}
+.text-pie,
+.text-pie-enlace{
+    font-family: 'Montserrat';
+    font-size: 0.9em;
+    text-decoration: none;
+
+}
+.text-pie-enlace{
+    color: #3c82a5;
+    font-weight: bold;
+}
+.text-pie{
+    color: #898989;
+}
+.form__button1,
+.form__button2{
+    margin: 10px;
+}
+
+.form__button1{
+    padding: 1em 5em 1em 5em;
+    background-color: #44a6ad;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    font-family: 'Montserrat';
+}
+.form__button1:hover{
+    background-color: #3199a0;
+}
+.form__button2{
+    padding: 0.8em 3em 0.8em 3em;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    background-color: #44a6ad;
+    color: white;
+    border-radius: 3px;
+}
+.form__button2:hover{
+    background-color: #3199a0;
+}
+
+.form__item{
+    margin: 5px;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    outline: none;
+    border: none;
+}
+
+.footer, a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #898989;
+}
+
+.marcaRegistrada{
+    margin: auto;
+    padding-top: 10px;
+
+}
+.submenu-idiomas{
+    height: 0;
+    overflow: hidden;
+}
+
+.submenu-idiomas a{
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.form__button3{
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 5px;
+    background-color: #44a6ad;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.form__button3:hover{
+    background-color: #3199a0;}
+
+.fontIdioma{
+    font-size: 14px;
+    color: #3c82a5;
+
+}
+.fontIdioma:hover{
+    opacity: 80%;
+}
+
+::-webkit-input-placeholder{
+    color:#808182;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    opacity: 50%;
+    font-style: italic;
+    }
+
+@media all and (min-width:250px)and (max-width:720px){
+    .phone{
+        display: none;
+    }
+    .section-cont,
+    .footer{
+        width: 15em;
+    }
+    form{
+        background: linear-gradient(to right, #f9f9f9 0%, #f9f9f9 50%, #f9f9f9 50%, #f9f9f9 100%);
+
+    }
+    #form-h2{
+        margin-left: 10%;
+        margin-right: 30px;
+    }
+    .form-pie{
+        margin: 0px auto;  
+        text-align: center;
+        padding: 0.1em 0em 0.1em 0em;
+
+        background: linear-gradient(to right, #f2f2f2 0%, #f9f9f9 50%, #f9f9f9 50%, #f9f9f9 100%);
+
+    }
+}
+
+@media all and (min-width:721px){
+    .marcaRegistrada{
+        margin-left: 17em;
+    }
+    .submenu-idiomas a{
+        margin-left: 19.5em;
+    }
+}
